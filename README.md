@@ -4,7 +4,7 @@ I am providing this work as a helpful hand to people who are looking for a simpl
 
 Requires nvidia-driver 535.113.01, installed with apt-get install -y --allow-downgrades nvidia-driver-535/jammy-updates
 
-# text-generation-webui-docker
+# EX-ui Docker
 
 Docker images and configuration to run exui with GPU, currently being based off of latest commit whenever I feel like updating it, but the goal of this is to allow you to create it yourself with a clear concise Dockerfile that's understandable and transparent.
 
