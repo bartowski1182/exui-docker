@@ -25,9 +25,8 @@ RUN pip install exllamav2==$version
 
 RUN pip3 install huggingface_hub transformers packaging flask
 
-COPY ./exui /exui
-
-RUN pip3 install -r /exui/requirements.txt
+RUN git clone https://github.com/turboderp/exui \
+    && pip3 install -r /exui/requirements.txt
 
 RUN conda clean -afy
 
